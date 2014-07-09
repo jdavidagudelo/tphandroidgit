@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uri_rest_server_host">172.21.0.174</string>
+    <string name="uri_base_rest_services">http://172.21.0.174:8080/TPH.Spring</string>
+    <string name="uri_get_events">/EventoController/getEventos/{userId}</string>
+    <string name="uri_get_event_causes">/ConceptController/obtenerCausasAtencion</string>
+    <string name="uri_save_event">/EventoController/guardarEvento/{direccion}/{ciudad}/{nombreCiudad}/{zona}/{causa}/{nombreCausa}/{nombreDepartamento}/{caso}/{fechaHora}/{nombrePais}/{userId}</string>
+    <string name="uri_get_states">/LocationController/getStates</string>
+    <string name="uri_get_cities_by_state">/LocationController/getCitiesByState/{stateId}</string>
+    <string name="uri_get_state_by_name">/LocationController/getStateByName/{stateName}/{countryName}</string>
+    <string name="uri_get_city_by_name">/LocationController/getCityByName/{cityName}/{stateName}/{countryName}</string>
+    <string name="uri_login">/LoginController/login/{username}/{password}</string>
+    <string-array name="uri_save_event_params">
+        <item>direccion</item>
+        <item>ciudad</item>
+        <item>nombreCiudad</item>
+        <item>zona</item>
+        <item>causa</item>
+        <item>nombreCausa</item>
+        <item>nombreDepartamento</item>
+        <item>caso</item>
+        <item>fechaHora</item>
+        <item>nombrePais</item>
+        <item>userId</item>
+    </string-array>
+    <string-array name="uri_get_cities_by_state_params"><item>stateId</item></string-array>
+    <string-array name="uri_get_events_params"><item>userId</item></string-array>
+    <string-array name="uri_login_params">
+        <item>username</item>
+        <item>password</item>
+    </string-array>
+</resources>

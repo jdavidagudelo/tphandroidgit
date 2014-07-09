@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/file"
+    >
+
+    <TextView
+        android:id="@+id/textViewCaseNumberEventList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12px"
+        android:text="@string/event_number_label_text" />
+    <TextView
+        android:id="@+id/textViewAddressEventList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12px"
+        android:text="@string/event_address_label_text" />
+    <TextView
+        android:id="@+id/textViewCityEventList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12px"
+        android:text="@string/event_city_label_text" />
+    <TextView
+        android:id="@+id/textViewCauseEventList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12px"
+        android:text="@string/event_cause_label_text" />
+    <TextView
+    android:id="@+id/textViewDateEventList"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="12px"
+        android:textAlignment="center"
+    android:text="@string/event_date_label_text" />
+    <TextView
+        android:id="@+id/textViewStateEventList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12px"
+        android:text="@string/event_state_label_text">
+    </TextView>
+</LinearLayout>

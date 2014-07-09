@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Asistencia Prehospitalaria</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_create_event_text_view">Información general</string>
+    <string name="sppiner_causa_atencion_evento_text_view">Causa que origna la atención *</string>
+    <string name="sppiner_state_event_text_view">Departamento *</string>
+    <string name="sppiner_city_event_text_view">Municipio *</string>
+    <string name="edit_text_address_event_text_view">Dirección *</string>
+    <string name="radio_zone_event_text_view">Zona *</string>
+    <string name="radio_zone_rural_radio_button">Rural</string>
+    <string name="radio_zone_urban_radio_button">Urbana</string>
+    <string name="edit_text_case_number_event_text_view">Número caso sistema *</string>
+    <string name="edit_date_event_text_view">Fecha de llamada *</string>
+    <string name="edit_time_event_text_view">Hora de llamada *</string>
+    <string name="create_button_text">Guardar</string>
+    <string name="create_button_back_text">Cancelar</string>
+    <string name="create_event_address_error_text">Debe ingresar la dirección en la que se presenta el evento</string>
+    <string name="create_event_state_error_text">Debe seleccionar el departamento en el que se presento el evento</string>
+    <string name="create_event_city_error_text">Debe seleccionar el municipio en el que se presento el evento</string>
+    <string name="create_event_zone_error_text">Debe seleccionar la zona en que se presenta el evento</string>
+    <string name="create_event_cause_error_text">Debe seleccionar la causa del evento</string>
+    <string name="create_event_case_number_error_text">Debe ingresar el número del caso</string>
+    <string name="create_event_date_error_text">Debe ingresar la fecha y hora de la llamada</string>
+    <string name="create_event_case_number_not_integer_error_text">El número de caso debe ser un número entero</string>
+    <string name="create_event_date_greater_error_text">La fecha y hora de la llamada debe ser menor a la fecha actual</string>
+    <string name="create_event_success_text">El evento ha sido creado exitosamente</string>
+    <string name="loading_dialog_text">Espere un momento por favor...</string>
+    <string name="title_activity_list_events">Eventos de emergencias</string>
+    <string name="event_state_label_text">Estado:\u0020</string>
+    <string name="event_number_label_text">Número de caso:\u0020</string>
+    <string name="event_address_label_text">Dirección:\u0020</string>
+    <string name="event_city_label_text">Ciudad:\u0020</string>
+    <string name="event_cause_label_text">Causa:\u0020</string>
+    <string name="event_date_label_text">Fecha:\u0020</string>
+    <string name="date_time_format">MM/dd/yyyy HH:mm:ss</string>
+    <string name="search_event_text_field">Ingrese un criterio de búsqueda de eventos</string>
+    <string name="title_activity_login">Acceso de Usuario</string>
+    <string name="username_field_login_name">Login:\u0020</string>
+    <string name="password_field_login_name">Clave:\u0020</string>
+    <string name="username_field_login_hint">Ingrese su nombre de usuario</string>
+    <string name="password_field_login_hint">Ingrese su clave</string>
+    <string name="login_button_text">Acceder</string>
+    <string name="button_create_event_text">Crear evento</string>
+</resources>
