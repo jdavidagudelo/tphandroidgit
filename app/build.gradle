@@ -3,10 +3,7 @@ apply plugin: 'android'
 android {
     compileSdkVersion 19
     buildToolsVersion '19.1.0'
-<<<<<<< HEAD
-=======
 
->>>>>>> 29163a91620246c34f086d24a44a3fa6b8a90b1a
     configurations.compile {
         exclude module: 'spring-core'
         exclude module: 'spring-web'
