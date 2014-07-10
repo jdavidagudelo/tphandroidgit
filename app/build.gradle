@@ -3,6 +3,10 @@ apply plugin: 'android'
 android {
     compileSdkVersion 19
     buildToolsVersion '19.1.0'
+<<<<<<< HEAD
+=======
+
+>>>>>>> 29163a91620246c34f086d24a44a3fa6b8a90b1a
     configurations.compile {
         exclude module: 'spring-core'
         exclude module: 'spring-web'
@@ -36,7 +40,7 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:appcompat-v7:+'
+    compile 'com.android.support:appcompat-v7:19.+'
     compile 'com.fasterxml.jackson.core:jackson-databind:2.3.2'
     compile 'com.google.android.gms:play-services:3.1.36'
     compile 'org.codehaus.jackson:jackson-core-asl:1.1.0'
