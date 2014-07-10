@@ -2,8 +2,7 @@ apply plugin: 'android'
 
 android {
     compileSdkVersion 19
-    buildToolsVersion "19.0.3"
-
+    buildToolsVersion '19.1.0'
     configurations.compile {
         exclude module: 'spring-core'
         exclude module: 'spring-web'
@@ -16,7 +15,7 @@ android {
         minSdkVersion 8
         targetSdkVersion 19
         versionCode 1
-        versionName "1.0"
+        versionName '1.0'
     }
     buildTypes {
         release {
@@ -31,6 +30,8 @@ android {
             exclude 'META-INF/NOTICE'
             exclude 'META-INF/notice.txt'
         }
+    }
+    productFlavors {
     }
 }
 
